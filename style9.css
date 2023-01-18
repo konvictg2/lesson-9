@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.site
+{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.header
+{
+    height: 60px;
+    background-color: blueviolet;
+}
+
+.header ul
+{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+} 
+.header ul li
+{
+    float: left;
+    width: 20%;
+    height: 100%;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+}
+.header ul li a
+{
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+    display: block;
+    line-height: 60px;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    
+    
+}
+.header ul li:hover
+{
+    background-color: red;
+    
+}
+.header ul li a:hover
+{
+    text-decoration: underline;
+    text-shadow: 0 0 10px orange;
+     
+
+}
+
+
